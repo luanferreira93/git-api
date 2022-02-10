@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Git API - Perfil</title>
+</head>
+
+<body>
+    <main class="container">
+        <section id="avatar">
+            <img alt="" id="avatar_img">
+        </section>
+        <section class="main">
+            <div class="info">
+                <div>
+                    <p>ID:</p>
+                    <h1 id="id"></h1>
+                </div>
+                <div>
+                    <p>Nome:</p>
+                    <h2 id="name"></h2>
+            </div>
+            </div>
+            <div class="repo">
+                <div>
+                    <p>Repositórios:</p>
+                    <h4 id="repos"></h4>
+                </div>
+            </div>
+
+        </section>
+        <section id="follow">
+            <div>
+                <p>Seguidores:</p>
+                <p id="followers"></p>
+            </div>
+           <div>
+            <p>Seguindo:</p>
+            <p id="following"></p>
+           </div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
